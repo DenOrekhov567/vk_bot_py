@@ -4,6 +4,6 @@ from vk_bot import VKBot
 class Main:
     
     if __name__ == '__main__':
-        print("Бот запускается...")
+        print("Загрузка начинается...")
         bot = VKBot(token=get_token())
         bot.run()
